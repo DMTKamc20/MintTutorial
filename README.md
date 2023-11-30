@@ -13,4 +13,4 @@ Place the dmtk_json folder in the ATOMICAL_JS directory.
 
 Choose you item id and run command:
 
-yarn cli mint-item "#DMTK" "dmtk1" "./dmtk_json/item-dmtk1.json" --satsbyte=30
+yarn cli mint-item "#dmtk" "dmtk1" "./dmtk_json/item-dmtk1.json" --satsbyte=30

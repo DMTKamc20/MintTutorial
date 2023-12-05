@@ -25,8 +25,8 @@ This is the step-by-step guide for mint dmtk3
 4. Fill in Sats such as 50 based the real-time sats in the upper right corner.
 
 5. Click the "Preview" button as shown below.If the submission fails, it means that this number has been mint. Please select another number and upload the corresponding json file.
-
-![1701780724702](https://github.com/DMTKamc20/MintTutorial/assets/152500101/82ce6914-d204-4362-8d40-2b7b76143bc4)
+ 
+![1701786388263](https://github.com/DMTKamc20/MintTutorial/assets/152500101/7a63fc7f-52ef-4cbd-86fd-0afb9f6b93ae)
 
 
 6. Click the "inscribe" button as shown below, confirm the transaction in the wallet and wait for it to be uploaded to the chain.

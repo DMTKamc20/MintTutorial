@@ -10,30 +10,37 @@ https://twitter.com/DMTK_AMC20
 
 Download this github repo:
 
-
 git clone https://github.com/DMTKamc20/MintTutorial.git
 
 
-# 2.Mint -Command Line
+# 2.Mint By Sats
+This is the step-by-step guide for mint dmtk3
 
-Place the dmtk_json folder in the ATOMICAL_JS directory.
+1. Open https://satsx.io/inscribe/atomicals and connect you wallet.
 
+2. Choose Dmint , and our container name is "dmtk".
 
-Choose you item id and run command:
+3. Upload you json file  item_dmtk3.json.
 
+4. Fill in Sats such as 50 based the real-time sats in the upper right corner.
 
-yarn cli mint-item "#dmtk" "dmtk1" "./dmtk_json/item-dmtk1.json" --satsbyte=30
+5. Click the "Preview" button as shown below.If the submission fails, it means that this number has been mint. Please select another number and upload the corresponding json file.
 
-
-# 3.Mint -Sats
-
-Open https://satsx.io/inscribe/atomicals
-
-
-Upload you json file such as item_dmtk3.json if you want mint dmtk3
+![1701780724702](https://github.com/DMTKamc20/MintTutorial/assets/152500101/82ce6914-d204-4362-8d40-2b7b76143bc4)
 
 
-Fill in Sats such as 20
+6. Click the "inscribe" button as shown below, confirm the transaction in the wallet and wait for it to be uploaded to the chain.
+![1701780481697](https://github.com/DMTKamc20/MintTutorial/assets/152500101/fa58b63c-c78a-4098-a8bb-a6a895c7fbf1)
 
 
-Submit
+
+
+# 3.Mint By Command Line
+
+If you have experience using atomical-js tools. You can mint as follows：
+
+1. Place the dmtk_json folder in the ATOMICAL_JS directory.
+
+2. Choose you item id and run command:
+
+3. yarn cli mint-item "#dmtk" "dmtk1" "./dmtk_json/item-dmtk1.json" --satsbyte=30
